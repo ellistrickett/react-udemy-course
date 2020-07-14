@@ -8,4 +8,8 @@ const Spinner = (props) => {
   );
 };
 
+Spinner.deaultProps = {
+  message: 'Loading...'
+};
+
 export default Spinner;
